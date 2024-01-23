@@ -22,11 +22,13 @@ $spacers: (
 	8: $spacer * 12,
 ) !default;
 
-//Units of measuer
+//Units of measure
 $headings-margin-bottom: $spacer * 1;
 $line-height-base: 1.7;
+$headings-font-weight: bold;
 
 //Navbar
 $navbar-nav-link-padding-x: 0.8rem;
 $navbar-padding-y: 1rem;
 $navbar-dark-color: #fff;
+$navbar-toggler-border-radius: 5px;
