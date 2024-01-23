@@ -1,0 +1,22 @@
+#main-nav {
+	.nav-item {
+		font-size: 1.1rem;
+		font-weight: bold;
+		border-bottom: 2px solid transparent;
+		margin-left: 0.5rem;
+		margin-right: 0.5rem;
+
+		&:hover {
+			border-bottom: 2px solid $primary;
+
+			.nav-link {
+				color: $primary;
+			}
+		}
+	}
+
+	#icon-1,
+	#icon-2 {
+		border: none;
+	}
+}

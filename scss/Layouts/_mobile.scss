@@ -13,6 +13,7 @@
 // Large devices (desktops, less than 1200px)
 @include media-breakpoint-down(lg) {
 	#main-nav {
+		background: var(--bs-dark);
 		.nav-item {
 			margin-left: auto;
 			margin-right: auto;
