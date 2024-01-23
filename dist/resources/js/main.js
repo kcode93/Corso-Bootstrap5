@@ -15,3 +15,4 @@ function navStyleOnScroll(){
 
 //runs function after page has loaded
 document.addEventListener('DOMContentLoaded', navStyleOnScroll);
+
