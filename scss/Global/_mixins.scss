@@ -9,7 +9,7 @@
 
 //Background image with Dark Overlay
 @function bg-img-dark-overlay($imagePath) {
-	@return linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+	@return linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
 		url($imagePath);
 }
 
