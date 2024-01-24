@@ -7,7 +7,54 @@
 
 // Medium devices (tablets, less than 992px)
 @include media-breakpoint-down(md) {
-	//here
+	#main-header {
+		padding-bottom: 2rem !important;
+
+		.header-hero {
+			margin-top: 3rem !important;
+		}
+
+		.lead {
+			margin-top: 3rem !important;
+			margin-bottom: 3rem !important;
+		}
+
+		.btn {
+			margin: 1rem 0.5rem !important;
+		}
+
+		#carouselId {
+			margin: 1rem auto !important;
+		}
+	}
+
+	.container {
+		max-width: 95%;
+	}
+
+	#register {
+		padding-top: 2rem !important;
+
+		.register-title {
+			text-align: center;
+		}
+	}
+
+	#discover {
+		padding-bottom: 2rem !important;
+	}
+
+	#summary {
+		.summary-title {
+			font-size: 2.5rem;
+		}
+	}
+
+	#learn {
+		.learn-title {
+			text-align: center;
+		}
+	}
 }
 
 // Large devices (desktops, less than 1200px)
